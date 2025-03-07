@@ -1,0 +1,202 @@
+@font-face {
+    font-family: 'idroid' ;
+    src: url("idroid.otf");
+}
+@font-face {
+    font-family: 'bebasneue';
+    src: url("BebasNeue-Regular.otf");
+}
+body{
+    justify-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(173, 173, 173);
+    margin: 0;
+    padding: 0;
+}
+main{
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    box-shadow:0px 2px 8px green ;
+    width: 70%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+header{
+    padding-top: 0;
+    background-image: linear-gradient(to bottom, #3bd57f,#227747, #124126);
+    width: 100% ;
+    height: 250px;
+    color: white ;
+    box-shadow:2px 2px 7px green ;
+}
+.nav{ 
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 40px ;
+    font-weight: bold;
+}
+.home{
+    margin-left: 20px;
+    height: 33px;
+    width: 60px;
+    border-radius: 5px;
+    align-content: center;
+}
+.home:hover{
+    background-color: #20663f;
+    box-shadow: 2px 2px 5px #092b18;
+    transition: 0.5s;
+}
+.noticias{
+    height: 33px;
+    width: 80px;
+    border-radius: 5px;
+    align-content: center;
+}
+.noticias:hover{
+    background-color: #20663f;
+    box-shadow: 2px 2px 5px #092b18;
+    transition: 0.5s;
+}
+.curious{
+    height: 33px;
+    width: 110px;
+    border-radius: 5px;
+    align-content: center;
+}
+.curious:hover{
+    background-color: #20663f;
+    box-shadow: 2px 2px 5px #092b18;
+    transition: 0.5s;
+}
+.fale{
+    height: 33px;
+    width: 120px;
+    border-radius: 5px;
+    align-content: center;
+}
+.fale:hover{
+    background-color: #20663f;
+    box-shadow: 2px 2px 5px #092b18;
+    transition: 0.5s;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+h1{
+    font-family: 'bebasneue';
+    font-weight: normal;
+    padding-top: 50px;
+    align-items: center;
+    text-align: center;
+    margin-top: 0;
+    font-size: 45px;
+    width: 100%;
+    text-shadow: 1px 1px 3px rgb(5, 49, 5);
+}
+.ph1{
+    text-align: center;
+    text-shadow: 1px 1px 3px rgb(5, 49, 5);
+    color: #ffffff;
+    font-weight: normal;
+}
+p{
+    text-indent: 25px;
+    text-align: justify;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2,h3{
+    text-align: left;
+    font-family: 'idroid';
+    color: #185a35;
+}
+h2{
+    padding-top: 15px;
+    padding-left: 10px;
+    margin-top: 0;
+}
+h3{
+    background-image: linear-gradient(to left, white, lightgreen);
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 5px;
+}
+.irina:hover{
+    background-image: url('pacote-projeto-d10/imagens/irina-blok.jpg');
+}
+.droids{
+    width: 100%;
+}
+.irina{
+    width: 95%;
+}
+iframe {
+    border: solid 1.8dvw #1a5c38;
+    width: 95%;
+}
+section{
+    background-color: #c5ebd6;
+    padding-bottom: 10px;
+    margin: auto;
+    width: 95%;
+    border-radius: 10px;
+    box-shadow:2px 2px 7px rgb(199, 211, 199) ;
+}
+
+h4{
+    background-color: #2fa866;
+    border-radius: 10px 10px 0 0;
+    height: 30px;
+    text-align: left;
+    padding-left: 8px;
+    align-content: center;
+    color: white;
+}
+li{
+    text-align: left;
+    
+}
+footer{
+    width: 100%;
+    background-color: #1a5c38;
+    color: white;
+    height: 24px;
+    font-size: 12px;
+    align-content: center;
+}
+.azul{
+    color: #c5ebd6;
+    text-decoration: none;
+}
+.plast{
+    padding-bottom: 25px;
+    text-align: center;
+}
+article{
+    white-space: nowrap;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 1px;
+    align-items: flex-start;
+    width: 100%;
+    font-size: 14px;
+}
+.left{
+    text-align: left ;
+    width: 50%;
+    padding-left: 10px;
+}
+.right{
+    text-align: left;
+    width: 50%;
+}
