@@ -34,7 +34,7 @@ header{
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    margin-top: 40px ;
+    padding-top: 20px ;
     font-weight: bold;
 }
 .home{
@@ -73,7 +73,7 @@ header{
 }
 .fale{
     height: 33px;
-    width: 120px;
+    width: 78px;
     border-radius: 5px;
     align-content: center;
 }
@@ -189,7 +189,7 @@ article{
     padding-left: 1px;
     align-items: flex-start;
     width: 100%;
-    font-size: 14px;
+    font-size: 0.9em;
 }
 .left{
     text-align: left ;
